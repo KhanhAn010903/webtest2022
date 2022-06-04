@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container md:max-w-2xl lg:max-w-5xl xl:max-w-6xl mx-auto">
+        <!-- ----------------Đầu----------------- -->
+        <div class="header max-w-6xl mx-auto text-right mt-4 font-bold">
+            <ul>
+                <li class="inline-block px-4"><a href="#">Works</a></li>
+                <li class="inline-block px-4"><a href="#">Blog</a></li>
+                <li class="inline-block px-4"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- ----------------------------------- -->
+
+        <!-- ----------------------------Banner---------------------- -->
+        <div class="banner mt-20 flex flex-wrap-reverse md:flex-nowrap justify-center md:grid md:grid-cols-2 md:gap-8 xl:flex  ">
+            <div class="left flex">
+                <div class="text-center md:text-left xl:text-left md:basis-3/5 ">
+                    <div class="py-2"><span class="text-3xl font-bold">Hi, I am John,</span></div>
+                    <div class="py-2"><span class="text-3xl font-bold">Creative Technologist</span></div>
+                    <div class="py-2"><span class="text-1xl">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                            consequat
+                            sunt nostrud amet.</span></div>
+                            <div class="mt-6 text-center md:text-left xl:text-left">
+                                <form>
+                                    <button
+                                        class="border-2 bg-red-500 py-2 px-2 text-white font-bold hover:bg-black rounded-md">Download
+                                        Resume</button>
+                                </form>
+                            </div>
+                </div>
+               
+            </div>
+            <div class="right justify-evenly flex basis-2/5">
+                <img src="images/Ellipse 1 (1).jpg" alt="">
+            </div>
+        </div>
+        <!-- -------------------------------------------------------- -->
+
+        <!-- ----------------------Content----------------------------- -->
+        <div class="content mt-12 max-w-6xl mx-auto ">
+            <div class="top bg-cyan-100">
+                <div class="">
+                    <div class="text-center md:flex md:justify-between mx-12">
+                        <div class="mt-6">
+                            <p class="font-bold">Recent posts</p>
+                        </div>
+                        <div class="mt-6">
+                            <p class="hidden md:block">View all</p>
+                        </div>
+                    </div>
+                    <div class="nd mx-10 mt-6 flex grid md:grid-cols-2 grid-cols-1 gap-8 ">
+                        <div class="nd1 bg-white rounded-md mb-10">
+                            <div class="ml-10 my-4"><span class="font-bold text-2xl">Making a design system from
+                                    scratch</span></div>
+                            <div class="ml-10 my-4"><span>12 Feb 2020 </span> | <span> Design, Pattern</span></div>
+                            <div class="ml-10 my-4"><span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet sint. Velit officia consequat duis enim velit mollit.
+                                    Exercitation veniam consequat sunt nostrud amet.</span></div>
+                        </div>
+                        <div class="nd2 bg-white rounded-md mb-10">
+                            <div class="ml-10 my-4"><span class="font-bold text-2xl">Creating pixel perfect icons in
+                                    Figma</span></div>
+                            <div class="ml-10 my-4"><span>12 Feb 2020</span> | <span>Figma, Icon Design</span></div>
+                            <div class="ml-10 my-4"><span>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                    do amet sint. Velit officia consequat duis enim velit mollit.
+                                    Exercitation veniam consequat sunt nostrud amet.</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom max-w-6xl mx-auto mt-6">
+                <div>
+                    <p class="text-2xl">Featured works</p>
+                </div>
+                <div class="mt-6">
+                    <div class="content1 border-b-4  ">
+                         <div class="mb-10 md:flex">
+                            <div class="mx-4"><img class="w-full" src="images/Rectangle 30.jpg" alt=""></div>
+                            <div class="ml-5">
+                                <p class="font-bold text-2xl py-2">Designing Dashboards</p>
+                                <p class="py-2"><span class="border-2 rounded-lg bg-black text-white px-2">2020</span><span>   Dashboard</span></p>
+                                <p class="py-2">Amet minim mollit non deserunt ullamco est sit aliqua
+                                     dolor do amet sint. Velit officia consequat duis enim velit 
+                                     mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="content1 border-b-4 mt-6">
+                        <div class="mb-10 md:flex">
+                           <div class="mx-4"><img class="w-full" src="images/Rectangle 32.jpg" alt=""></div>
+                           <div class="ml-5">
+                               <p class="font-bold text-2xl py-2">Designing Dashboards</p>
+                               <p class="py-2"><span class="border-2 rounded-lg bg-black text-white px-2">2020</span><span>   Illustration</span></p>
+                               <p class="py-2">Amet minim mollit non deserunt ullamco est sit aliqua
+                                    dolor do amet sint. Velit officia consequat duis enim velit 
+                                    mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                           </div>
+                        </div>
+                   </div>
+                   <div class="content1 border-b-4 mt-6 ">
+                    <div class="mb-10 md:flex">
+                       <div class="mx-4"><img class="w-full" src="images/Rectangle 34.jpg" alt=""></div>
+                       <div class="ml-5">
+                           <p class="font-bold text-2xl py-2">Designing Dashboards</p>
+                           <p class="py-2"><span class="border-2 rounded-lg bg-black text-white px-2">2020</span><span>   Typography</span></p>
+                           <p class="py-2">Amet minim mollit non deserunt ullamco est sit aliqua
+                                dolor do amet sint. Velit officia consequat duis enim velit 
+                                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                       </div>
+                    </div>
+               </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center mt-20">
+            <div class="flex justify-center">
+                <div class="mx-4"><img src="images/Linkedin.png" alt=""></div>
+                <div class="mx-4"><img src="images/Vector (1).png" alt=""></div>
+                <div class="mx-4"><img src="images/Vector.png" alt=""></div>
+                <div class="mx-4"><img src="images/fb.png" alt="">
+                </div>
+            </div>
+            <div class="mt-6"><p>Copyright ©2020 All rights reserved </p></div>
+        </footer>
+
+
+
+
+
+
+
+        <!-- ---------------------------------------------------------- -->
+    </div>
+</body>
+
+</html>
